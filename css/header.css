@@ -1,0 +1,90 @@
+@font-face {
+    font-family: avenir_ff;
+    src: url("/fonts/avenir_ff/AvenirLTStd-Roman.otf");
+}
+
+@font-face {
+    font-family: georgia_ff;
+    src: url("/fonts/georgia.ttf");
+}
+
+body {
+    width:device-width;
+    position: relative;
+    font-size: 20px;
+    line-height: 1.4;
+    color: var(--main-text-color);
+    min-width: 320px;
+    overflow-x: hidden;
+    height: auto;
+    font-family: avenir_ff;
+    font-weight: 500;
+    color: #000000;
+}
+
+:root {
+   --secondary-text-color: #01996D;
+}
+
+.container {
+    display:flex;
+    height: 85px;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+.alivio a{
+    text-decoration: none;
+    color: var(--secondary-text-color);
+    font-size: 2em;
+    font-family: "avenir_ff";
+    font-weight: 600;
+    margin-left: 90px;
+}
+
+.nav-elements {
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+     
+}
+
+.nav-elements li{
+    list-style: none;
+    padding-left: 20px;
+}   
+
+.navigation ul a{
+    justify-content: space-between;
+    padding: 35px;
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+
+.reg-elements {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 90px;
+}
+
+.reg-elements li {
+    padding-left: 40px;
+    list-style: none;
+}
+
+.signIn {
+    text-decoration: none;
+    color: #000000;
+}
+
+.start{
+    text-decoration: none;
+    color:#ffffff;
+    padding: 13px 50px;
+    margin: 10px 15px;
+    background-color: #01996D;
+    border-radius: 4px;
+
+}
