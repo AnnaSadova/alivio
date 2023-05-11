@@ -1,15 +1,72 @@
+
 .intro{
-    background-image: url(radu-florin-CwTBt6jyagQ-unsplash.jpg);
-    background: linear-gradient(90deg, #51545b 0%, #767a85 90.71%);
-    position: absolute;
+    display: inline-block;
+    background: linear-gradient(112.58deg, #FFFFFF 18.15%, rgba(255, 255, 255, 0) 53.07%), rgba(0, 0, 0, 0.1);
     width: 1920px;
-    height: 1184px;
-    left: 271px;
-    top: -91px;
+    height: 90vh;
+    left: 0px;
+}
+
+.intro-img{
+    position: relative;
+    z-index: -1;
+    display: block;
+    width: 1600px;
+    height: 90vh;
+    left: 0px;
+    margin-left: 275px;
 
 }
 
-h1{
+
+.intro h1{
+    color: #01996D;;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 74px;
+    position: absolute;
+    width: 440px;
+    height: 148px;
+    left: 275px;
+    top: 261px;
+    z-index: 4;
+}
+
+.intro p{
+    position: absolute;
+width: 420px;
+height: 123px;
+left: 275px;
+top: 439px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 31px;
+z-index: 4;
+
+color: #484848;
+}
+
+.intro-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 50px;
+    gap: 30px;
     
+    position: absolute;
+    width: 227px;
+    height: 65px;
+    left: 275px;
+    top: 580px;
+    
+    background: #01996D;
+    border: 1px solid #01996D;
+    border-radius: 4px;
+    color: #FFFFFF;
+    z-index: 4;
 }
 

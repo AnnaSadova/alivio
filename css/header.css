@@ -8,6 +8,7 @@
     src: url("/fonts/georgia.ttf");
 }
 
+
 body {
     width:device-width;
     position: relative;
@@ -17,7 +18,7 @@ body {
     min-width: 320px;
     overflow-x: hidden;
     height: auto;
-    font-family: avenir_ff;
+    font-family: 'Lato';
     font-weight: 500;
     color: #000000;
 }
@@ -38,7 +39,7 @@ body {
 .alivio a{
     text-decoration: none;
     color: var(--secondary-text-color);
-    font-size: 2em;
+    font-size: 30px;
     font-family: "avenir_ff";
     font-weight: 600;
     margin-left: 90px;
@@ -58,7 +59,7 @@ body {
 
 .navigation ul a{
     justify-content: space-between;
-    padding: 35px;
+    padding: 30px;
     text-decoration: none;
     color: var(--main-text-color);
 }
