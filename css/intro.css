@@ -3,18 +3,17 @@
     display: inline-block;
     background: linear-gradient(112.58deg, #FFFFFF 18.15%, rgba(255, 255, 255, 0) 53.07%), rgba(0, 0, 0, 0.1);
     width: 1920px;
-    height: 90vh;
+    height: 895px;
     left: 0px;
 }
 
 .intro-img{
-    position: relative;
-    z-index: -1;
-    display: block;
-    width: 1600px;
-    height: 90vh;
-    left: 0px;
-    margin-left: 275px;
+    position: absolute;
+width: 1920px;
+height: 1184px;
+left: 193px;
+top: -103px;
+z-index: -2;
 
 }
 
@@ -40,7 +39,7 @@ width: 420px;
 height: 123px;
 left: 275px;
 top: 439px;
-font-family: 'Lato';
+font-family: 'Lato', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -52,20 +51,20 @@ color: #484848;
 
 .intro-button{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px 50px;
-    gap: 30px;
-    
-    position: absolute;
-    width: 227px;
-    height: 65px;
-    left: 275px;
-    top: 580px;
-    
-    background: #01996D;
-    border: 1px solid #01996D;
-    border-radius: 4px;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+
+position: absolute;
+width: 227px;
+height: 65px;
+left: 275px;
+top: 580px;
+
+background: #01996D;
+border: 1px solid #01996D;
+border-radius: 4px;
     color: #FFFFFF;
     z-index: 4;
 }
