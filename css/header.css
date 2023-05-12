@@ -10,8 +10,7 @@
 
 
 body {
-    width:device-width;
-    position: relative;
+    position: absolute;
     font-size: 20px;
     line-height: 1.4;
     color: var(--main-text-color);
@@ -29,12 +28,10 @@ body {
 
 .container {
     display:flex;
-    height: 85px;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 2px solid  rgba(0, 0, 0, 0.1);
+    height: 85px;
     background-color: #ffffff;
-    
 }
 
 .alivio a{
@@ -50,7 +47,7 @@ body {
     display: flex;
     justify-content: flex-start;
     text-decoration: none;
-     
+     white-space: nowrap;
 }
 
 .nav-elements li{
@@ -69,6 +66,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-right: 90px;
+    white-space: nowrap;
 }
 
 .reg-elements li {
