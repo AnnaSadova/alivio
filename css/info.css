@@ -10,7 +10,6 @@
     margin: 169px 275px 0;
     display: flex;
     justify-content: space-between;
-    
 
 }
 .intro-info{
@@ -24,14 +23,30 @@ padding: 100px;
 
 }
 
-.box{
-    padding: 40px;
-    font-size: 25px;
-    border: 1px solid black;
-    width: 441px;
-    height: 856px;
-    margin-top: 468px;
-
+.box-wrapper {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-around;
+    
 }
 
+.box{
+    padding-top: 40px;
+    font-size: 25px;
+    border: 1px solid black;
+    margin-top: 468px;
+    max-width: 20%;
+    height: 900px;
+}
 
+.box-01 {
+    justify-content: flex-start;
+}
+
+.box-02 {
+    justify-content: flex-end;
+}
+
+.box-03 {
+    justify-content: flex-ce;
+}

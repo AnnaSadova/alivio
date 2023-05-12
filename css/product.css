@@ -1,0 +1,13 @@
+.product{
+    position: absolute;
+    top: 3629px;
+    bottom: 51px;
+    z-index: 1;
+    background-color: #ffffff;
+}
+.product-wrapper{
+    margin: 120px 275px 168px;
+    display: flex;
+    justify-content: space-between;
+
+}
