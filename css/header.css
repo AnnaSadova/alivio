@@ -10,7 +10,8 @@
 
 
 body {
-    position: absolute;
+    width: 1400px;
+    position: relative;
     font-size: 20px;
     line-height: 1.4;
     color: var(--main-text-color);
