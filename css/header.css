@@ -1,92 +1,90 @@
 @font-face {
-    font-family: avenir_ff;
-    src: url("/fonts/avenir_ff/AvenirLTStd-Roman.otf");
+  font-family: avenir_ff;
+  src: url("/fonts/avenir_ff/AvenirLTStd-Roman.otf");
 }
 
 @font-face {
-    font-family: georgia_ff;
-    src: url("/fonts/georgia.ttf");
+  font-family: georgia_ff;
+  src: url("/fonts/georgia.ttf");
 }
 
-
 body {
-    width: 1400px;
-    position: relative;
-    font-size: 20px;
-    line-height: 1.4;
-    color: var(--main-text-color);
-    min-width: 320px;
-    overflow-x: hidden;
-    height: auto;
-    font-family: 'Lato';
-    font-weight: 500;
-    color: #000000;
-    height: 5099px;
+  width: 1400px;
+  position: relative;
+  font-size: 20px;
+  line-height: 1.4;
+  color: var(--main-text-color);
+  min-width: 320px;
+  overflow-x: hidden;
+  height: auto;
+  font-family: "Lato";
+  font-weight: 500;
+  color: #000000;
+  margin: 0 auto;
 }
 
 :root {
-   --secondary-text-color: #01996D;
+  --secondary-text-color: #01996d;
 }
 
 .container {
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 85px;
-    background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 85px;
+  background-color: #ffffff;
 }
 
-.alivio a{
-    text-decoration: none;
-    color: var(--secondary-text-color);
-    font-size: 1.5em;
-    font-family: "avenir_ff";
-    font-weight: 600;
-    margin-left: 180px;
+.alivio a {
+  text-decoration: none;
+  color: var(--secondary-text-color);
+  font-size: 1.5em;
+  font-family: "avenir_ff";
+  font-weight: 600;
+  margin-left: 180px;
 }
 
 .nav-elements {
-    display: flex;
-    justify-content: flex-start;
-    text-decoration: none;
-     white-space: nowrap;
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: none;
+  white-space: nowrap;
 }
 
-.nav-elements li{
-    list-style: none;
-    padding-left: 20px;
-}   
+.nav-elements li {
+  list-style: none;
+  padding-left: 20px;
+}
 
-.navigation ul a{
-    justify-content: space-between;
-    padding: 30px;
-    text-decoration: none;
-    color: var(--main-text-color);
+.navigation ul a {
+  justify-content: space-between;
+  padding: 30px;
+  text-decoration: none;
+  color: var(--main-text-color);
 }
 
 .reg-elements {
-    display: flex;
-    justify-content: space-between;
-    margin-right: 90px;
-    white-space: nowrap;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 90px;
+  white-space: nowrap;
 }
 
 .reg-elements li {
-    padding-left: 40px;
-    list-style: none;
+  padding-left: 40px;
+  list-style: none;
 }
 
 .signIn {
-    text-decoration: none;
-    color: #000000;
+  text-decoration: none;
+  color: #000000;
 }
 
-.start{
-    text-decoration: none;
-    color:#ffffff;
-    padding: 13px 50px;
-    margin: 10px 15px;
-    background-color: #01996D;
-    border-radius: 4px;
-
+.start {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 13px 50px;
+  margin: 10px 15px;
+  background-color: #01996d;
+  border-radius: 4px;
 }

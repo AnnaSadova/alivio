@@ -1,68 +1,72 @@
 .intro-img-cover {
-    width: 100%;
-    overflow: hidden;
-    background: linear-gradient(112.58deg, #FFFFFF 18.15%, rgba(255, 255, 255, 0) 53.07%), rgba(0, 0, 0, 0.1);
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(
+      112.58deg,
+      #ffffff 18.15%,
+      rgba(255, 255, 255, 0) 53.07%
+    ),
+    rgba(0, 0, 0, 0.1);
 }
 
 .intro-img {
-    position: relative;
-    width: 100%;
-    padding-left: 200px;
-    overflow: hidden;
-    z-index: -1;
+  position: relative;
+  width: 100%;
+  padding-left: 200px;
+  overflow: hidden;
+  z-index: -1;
 }
 
 .intro {
-    display: inline-block;
-    overflow: hidden;
-    border-top: 2px solid  rgba(0, 0, 0, 0.1);
-    top: -250px;
+  display: inline-block;
+  overflow: hidden;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  top: -250px;
 }
 
-.intro h1{
-    color: #01996D;;
-    font-family: 'Georgia';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 74px;
-    position: absolute;
-    width: 440px;
-    height: 148px;
-    left: 220px;
-    top: 261px;
-    z-index: 4;
+.intro h1 {
+  color: #01996d;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 74px;
+  position: absolute;
+  width: 440px;
+  height: 148px;
+  left: 220px;
+  top: 261px;
+  z-index: 4;
 }
 
-.intro p{
-    position: absolute;
-    width: 420px;
-    height: 123px;
-    left: 220px;
-    top: 439px;
-    font-family: 'Lato', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 31px;
-    z-index: 4;
-    color: #484848;
+.intro p {
+  position: absolute;
+  width: 420px;
+  height: 123px;
+  left: 220px;
+  top: 439px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  z-index: 4;
+  color: #484848;
 }
 
-.intro-button{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    width: 227px;
-    height: 65px;
-    left: 220px;
-    top: 580px;
-
-background: #01996D;
-border: 1px solid #01996D;
-border-radius: 4px;
-    color: #FFFFFF;
-    z-index: 4;
+.intro-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 227px;
+  height: 65px;
+  left: 220px;
+  top: 580px;
+  background: #01996d;
+  border: 1px solid #01996d;
+  border-radius: 4px;
+  color: #ffffff;
+  z-index: 4;
 }

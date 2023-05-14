@@ -1,75 +1,71 @@
-.video{
-    top:2440px;
-    background-color: #245852;
-    position: absolute;
-width: 1400px;
-height: 580px;
-}
-.video h2{
-    
-    position: absolute;
-    width: 580px;
-    height: 158px;
-    left: 107px;
-top: 110px;
-color: #ffff;
-font-family: 'Georgia';
-font-style: normal;
-font-weight: 550;
-font-size: 45px;
-line-height: 79px;
+.video {
+  top: 2440px;
+  background-color: #245852;
+  position: absolute;
+  width: 1400px;
+  height: 580px;
 }
 
-.video h3{
-    position: absolute;
-width: 550px;
-height: 39px;
-left: 107px;
-top: 321px;
-
-font-family: 'Lato';
-font-style: normal;
-font-weight: 350;
-font-size: 20px;
-line-height: 39px;
-color: #ffff;
+.video h2 {
+  position: absolute;
+  width: 580px;
+  height: 158px;
+  left: 107px;
+  top: 110px;
+  color: #ffff;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 550;
+  font-size: 45px;
+  line-height: 79px;
 }
 
-.video a{
-    display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-
-
-position: absolute;
-width: 240px;
-height: 65px;
-left: 107px;
-top: 447px;
-
-background: #01996D;
-border: 1px solid #01996D;
-border-radius: 4px;
-    color: #FFFFFF;
-}
-.video img{
-    position: absolute;
-width: 695.84px;
-height: 416.11px;
-left: 658px;
-top: 129px;
-
-background: rgba(0, 0, 0, 0.2);
-border-radius: 16px;
+.video h3 {
+  position: absolute;
+  width: 550px;
+  height: 39px;
+  left: 107px;
+  top: 321px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 20px;
+  line-height: 39px;
+  color: #ffff;
 }
 
-.video img:last-child{
-    position: absolute;
-width: 75.85px;
-height: 75.85px;
-left: 965.95px;
-top: 290px;
-color: #FFFFFF;
-background: transparent;
+.video a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 240px;
+  height: 65px;
+  left: 107px;
+  top: 447px;
+  background: #01996d;
+  border: 1px solid #01996d;
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.video img {
+  position: absolute;
+  width: 695.84px;
+  height: 416.11px;
+  left: 658px;
+  top: 129px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+}
+
+.video img:last-child {
+  position: absolute;
+  width: 75.85px;
+  height: 75.85px;
+  left: 965.95px;
+  top: 290px;
+  color: #ffffff;
+  background: transparent;
 }

@@ -1,228 +1,181 @@
-.product{
-    width: 1400px;
-    position: relative;
-    box-sizing: border-box;
-    top: 599px;
-    /* bottom: 161px; */
-    z-index: 1;
-    background-color: #ffffff;
-    padding: 20px  20px;
-    margin-top: 150px;
-    margin-bottom: 150px;
-
-}
-.product-wrapper{
-    position: relative;
-width: 1400px;
-height: 648px;
-
-
+.product {
+  width: 1400px;
+  position: relative;
+  box-sizing: border-box;
+  top: 599px;
+  z-index: 1;
+  background-color: #ffffff;
+  padding: 20px 0px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  margin-left: 20px;
 }
 
- .product-img-cover{
-    position: absolute;
-width: 638.46px;
-height: 573.26px;
-left: 15.68px;
-top: 0px;
-
-background: rgba(1, 153, 109, 0.2);
-border-radius: 18.1125px;
-} 
-
- .product-img{ 
-    position: absolute;
-width: 427.6px;
-height: 622.05px;
-left: 102.79px;
-top:-50px;
-
-background: url(court-cook-TSZo17r3m0s-unsplash-removebg.png);
-border-radius: 18.1125px;
-
-}  
-
-.ourProduct{
-    position: relative;
-width: 136px;
-height: 39px;
- left: 661px;
-/* top: 3629px; */ 
-
-font-family: 'Lato';
-font-style: normal;
-font-weight: 400;
-font-size: 25px;
-line-height: 157%;
-padding-left: 20px;
-/* or 39px */
-
-
-color: #424242;
-
+.product-wrapper {
+  position: relative;
+  width: 1400px;
+  height: 648px;
 }
 
-.product-info{
-    position: relative;
-width: 584px;
-height: 158px;
-left: 661px;
- top: -30px; 
- padding-left: 20px;
-
-font-family: 'Georgia';
-font-style: normal;
-font-weight: 600;
-font-size: 45px;
-line-height: 157%;
-/* or 79px */
-
-
-color: #01996D;
+.product-img-cover {
+  position: absolute;
+  width: 638.46px;
+  height: 573.26px;
+  left: 15.68px;
+  top: 0px;
+  background: rgba(1, 153, 109, 0.2);
+  border-radius: 18.1125px;
 }
 
-.product-text{
-    position: relative;
-width: 530px;
-height: 81px;
-left: 661px;
- top: -56px; 
- padding-left: 20px;
-
-font-family: 'Lato';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 31px;
-
-color: #484848;
+.product-img {
+  position: absolute;
+  width: 427.6px;
+  height: 622.05px;
+  left: 102.79px;
+  top: -50px;
+  border-radius: 18.1125px;
 }
- .product a{
-   
-        display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
-    
-    position: absolute;
-    width: 240px;
-    height: 65px;
-    left: 720px;
-    top:360px;
-    
-    background: #01996D;
-    border: 1px solid #01996D;
-    border-radius: 4px;
-        color: #FFFFFF;
-    
- }
 
- .card{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-width: 296.14px;
-height: 293.9px;
-left: -50px;
-top: 400.1px;
+.ourProduct {
+  position: relative;
+  width: 136px;
+  height: 39px;
+  left: 661px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 157%;
+  padding-left: 20px;
+  color: #424242;
+}
 
-background: #FFFFFF;
-border-radius: 3.72971px;
-box-shadow:  0 0 20px #d6d6d6;
- }
+.product-info {
+  position: relative;
+  width: 584px;
+  height: 158px;
+  left: 661px;
+  top: -30px;
+  padding-left: 20px;
 
- .customized{
-    position: absolute;
-width: 130.54px;
-height: 23.12px;
- /* left: 358.32px; */
-top: 0.74px; 
-border-bottom: 1px solid #424242;
-padding-bottom: 3px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 157%;
+  color: #01996d;
+}
 
-font-family: 'Lato';
-font-style: normal;
-font-weight: 500;
-font-size: 15.49px;
-line-height: 157%;
-/* or 23px */
+.product-text {
+  position: relative;
+  width: 530px;
+  height: 81px;
+  left: 661px;
+  top: -56px;
+  padding-left: 20px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  color: #484848;
+}
+.product a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 240px;
+  height: 65px;
+  left: 720px;
+  top: 360px;
+  background: #01996d;
+  border: 1px solid #01996d;
+  border-radius: 4px;
+  color: #ffffff;
+}
 
-text-align: center;
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 296.14px;
+  height: 293.9px;
+  left: 1px;
+  top: 400.1px;
+  background: #ffffff;
+  border-radius: 3.72971px;
+  box-shadow: 0 0 20px #d6d6d6;
+}
 
-color: #000000;
+.customized {
+  position: absolute;
+  width: 130.54px;
+  height: 23.12px;
+  top: 0.74px;
+  border-bottom: 1px solid #424242;
+  padding-bottom: 3px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.49px;
+  line-height: 157%;
+  text-align: center;
+  color: #000000;
+}
 
+.card-img {
+  position: absolute;
+  transform: scale(0.025);
+  top: -1650px;
+  background: rgba(1, 153, 109, 0.2);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
 
- }
- .card-img{
-    position: absolute;
-    transform: scale(0.025);
-/* width: 69.73px; */
-/* height: 74.15px;  */
-/* left: 112.2px; */
- top: -1650px;  
- background: rgba(1, 153, 109, 0.2);
- box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
- border-radius: 50%;
- z-index: 4;
- }
+.name-card {
+  position: absolute;
+  width: 41.03px;
+  height: 18.65px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11.9351px;
+  line-height: 157%;
+  text-align: center;
+  color: #000000;
+}
 
- .name-card{
-    position: absolute;
-width: 41.03px;
-height: 18.65px;
-/* left: 402.56px;
-top: 4118.11px; */
+.contents {
+  position: absolute;
+  width: 180px;
+  height: 24.96px;
+  top: 150px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15.9292px;
+  line-height: 157%;
+  color: #000000;
+}
 
-font-family: 'Lato';
-font-style: normal;
-font-weight: 500;
-font-size: 11.9351px;
-line-height: 157%;
-/* identical to box height, or 19px */
+.list-card {
+  position: absolute;
+  width: 117.35px;
+  height: 16.46px;
+  top: 180.88px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.6195px;
+  line-height: 157%;
+  text-align: center;
+  color: #000000;
+}
 
-text-align: center;
-
-color: #000000
- }
- .contents{
-    position: absolute;
-width: 180px;
-height: 24.96px;
-/* /* left: 336px; */
-top: 150px; 
-
-font-family: 'Georgia';
-font-style: normal;
-font-weight: 700;
-font-size: 15.9292px;
-line-height: 157%;
-/* identical to box height, or 25px */
-
-
-color: #000000;
- }
- .list-card{
-    position: absolute;
-width: 117.35px;
-height: 16.46px;
-/* /* left: 336px; */
-top: 180.88px; 
-
-
-font-family: 'Lato';
-font-style: normal;
-font-weight: 400;
-font-size: 10.6195px;
-line-height: 157%;
-/* identical to box height, or 17px */
-
-text-align: center;
-
-color: #000000;
- }
- .list-card li{
-    padding-top: 10px;
- }
+.list-card li {
+  padding-top: 10px;
+}
